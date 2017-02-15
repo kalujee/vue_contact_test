@@ -1,4 +1,4 @@
-# vue_contact-test
+# vue_contact_test
 a practice of vue.js 2.0
 # run
 npm install
