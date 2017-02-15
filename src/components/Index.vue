@@ -35,8 +35,12 @@ export default {
           self.contacts = data
           self.total_data = self.contacts
         },
-        error: function () {
-          alert('fail')
+        error: function (err) {
+          $.toast({
+            heading: 'Fail to get contacts',
+            icon: 'error',
+            loader: false
+          })
         }
       })
     },

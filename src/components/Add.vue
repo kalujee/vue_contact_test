@@ -85,7 +85,7 @@ export default {
           error: function (err) {
             console.log(err.responseJSON.message)
             $.toast({
-              heading: '请求API失败:' + err.responseJSON.message,
+              heading: 'Request Fail For ' + err.responseJSON.message,
               icon: 'error',
               loader: false
             })
